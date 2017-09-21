@@ -3,6 +3,28 @@
 	padding: 0;
 }
 
+/*.wrap{
+  max-width: 600px;
+  margin:50px auto;
+}*/
+
+.type-wrap{
+  margin:10px auto;
+  padding:20px;
+  /*background:#f0f0f0;*/
+  border-radius:5px;
+  border:#fff 1px solid;
+}
+
+code.javascript {
+  border-color: white;
+  background-color: #f3f0dc;
+}
+
+hr {
+  border-color: white;
+}
+
 #logo{
 	width: 20%;
 	height: 20%;
@@ -18,14 +40,14 @@
 
 /*NAV*/
 #homebtn, #aboutbtn,#musicbtn, #workbtn {
-	background-color: #f3f0dc;
+	background-color: #BBDBBB;
   color: black;
   border-color: white;
-	/*padding-left: 50px;*/
+ 	/*padding-left: 50px;*/
 }
 
 #homebtn:hover, #aboutbtn:hover, #musicbtn:hover, #workbtn:hover {
-  color: #83ccc8;
+  color: white;
 }
 
 
@@ -84,21 +106,26 @@ display: inline-block;
 /*//*/
 
 
+    
+
 
 body {
-	/*background-image: url("images/background1.jpg");
+	/*background-image: url("images/background1.jpg");*/
 	background-repeat: no-repeat;
-    background-size: cover;*/
-	background-color: #f3f0dc;
-	animation: pulse 10s;
+  background-size: cover;
+  /*background:linear-gradient(to bottom, #8dd2d9 , #58c0c7) fixed; */  /* blue */
+  /*background:linear-gradient(to bottom, #f3f0dc , #e0dab5) fixed;*/ /* beige */
+ background:linear-gradient(to top, #40e0d0 , #e0dab5) fixed;
+/*	background-color: #f3f0dc;*/
+	animation: pulse 3s;
 }
 
 @keyframes pulse {
   0% {
-    background-color: white;
+    opacity: 0;
   }
   100% {
-    background-color: #f3f0dc;
+    opacity: 1;
   }
 }
 

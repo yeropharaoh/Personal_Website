@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-
-<html class="no-js" lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Yero's Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yero's Portfolio</title>
 <!-- portfolio template foundation 6 -->
 <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
 <!-- foundation css -->
@@ -19,10 +17,15 @@
 <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <!-- typedJS -->
-<script type="text/javascript" src="includes/typed.js"></script>
-<script type="text/javascript" src="includes/script.js"></script>
+  <script src="includes/typed.min.js" type="text/javascript"></script>
+  <script src="includes/script.js"></script>
+  <!-- <link href="assets/demos.css" rel="stylesheet"/> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
+
 <div class="row">
     <div class="large-12 columns">
         <h1>Yero Schutte <img id="logo" <a href="#" src="images/logo.gif"></a></h1>
@@ -38,42 +41,39 @@
         <hr/>
     </div>
 </div>
-<!-- <div class="row">
-    <div class="large-12 columns"> -->
-        <!-- <img src="images/topbanner.png"> -->
-        <!-- <div id="typed-strings">
-            <p>Typed.js is a <strong>JavaScript</strong> library.</p>
-            <p>It <em>types</em> out sentences.</p>
-        </div>
-        <span id="typed"></span> -->
-     <!--   <div id="typed"></div>
-              <div id="typed2"></div>
-              <div id="static">
-                <h1>Hello, I'm <span class="name">Wolf</span></h1>
-                <p>I am a Shader &amp; VFX Technical Artist</p>
-              </div>
-    </div> -->
-<!-- </div> -->
-<div class="row">
-<!-- <hr> -->
-<div class="large-8 columns">
-  <h4><a name="about"></a>About</h4>
-  <p>After receiving an MA in Media Innovation, it became clear to me that being able to harness technology was the way forward, which is why I am pursuing FullStack development and adding it to my career as a composer/sound designer who has had the pleasure of working on award-winning video games, films, and advertisements.</p>
 
-  I am currently looking for opportunities (preferably in the music world) to develop my frontend and/or backend skills. Please check out my work below! :).</p>
-  <div class="icon-list">
-    <a href="https://github.com/yeropharaoh" target="me github"><i class="fi-social-github"></i></a>
-    <a href="http://yeropharaoh.com/" target="_blank"><i class="fi-music"></i></a>
-  </div>
-  <!-- <i class="fi-social-github"></i> -->
-</div>
-<div class="large-4 columns">
-<img src="images/drawing.png">
-</div>
-</div>
+<!-- ABOUT -->
 <div class="row">
+    <div class="large-8 columns">
+        <h4><a name="about"></a></h4>
+        <div class="type-wrap">
+            <span id="typed" style="white-space:pre; font-size: 26px"></span>
+        </div>
+    <pre>
+      <code class="javascript">
+      var typed3 = new
+      });
+      </code>
+    </pre>
+        <p>After receiving an MA in Media Innovation, it became clear to me that being able to harness technology was the way forward, which is why I am pursuing FullStack development and adding it to my career as a composer/sound designer who has had the pleasure of working on award-winning video games, films, and advertisements.</p>
+        I am currently looking for opportunities to develop my frontend and/or backend skills. Please check out my work below! :).</p>
+        <div class="icon-list">
+            <a href="https://github.com/yeropharaoh" target="me github"><i class="fi-social-github"></i></a>
+            <a href="http://yeropharaoh.com/" target="_blank"><i class="fi-music"></i></a>
+        </div>
+        <!-- <i class="fi-social-github"></i> -->
+    </div>
+      <div class="large-4 columns">
+          <img src="images/drawing.png">
+      </div>
+</div>
+
+
 <hr>
-<div class="large-12 columns">
+
+<!-- WORK  -->
+<!-- <div class="row"> -->
+<div class="large-12 row columns">
 <h4><a name="work"></a>Work</h4>
 <!-- <p>Click on each image!</p> -->
 
@@ -82,11 +82,10 @@
                 <div class="zoom">
                   <a href="https://github.com/yeropharaoh/Basic-HTML-Site" target="blank">
                   <div>
-                    <figure><img class="thumbnail" src="images/vaporwave.png"></figure>
-                  </a>
-                  <h6>Basic Vapourwave themed HTML site</h6>
+                    <figure><img class="thumbnail" src="images/try.gif"></figure>
+                    </a>
+                    <h6>Basic Vapourwave themed HTML site</h6>
                   </div>
-                  
                 </div>
               </div>
 
@@ -95,65 +94,56 @@
                     <a href="https://github.com/yeropharaoh/Basic-Pirate-Blog-Site" target="blank">
                     <div>
                       <figure><img class="thumbnail" src="images/pirate.png"></figure>
-                    </a>
-                    <h6>A simple blog site for pirates using SQL!</h6>
+                      </a>
+                      <h6>A simple blog site for pirates using SQL!</h6>
                     </div>
-                    
-                  </div>
                 </div>
+              </div>
 
               <div class="column">
                 <div class="zoom">
                   <a href="https://github.com/yeropharaoh/Rapper-Gifs-jQuery-Site" target="blank">
                   <div>
                     <figure><img class="thumbnail" src="images/rappergifs.png"></figure>
-                  </a>
-                  <h6>A site about rapper gifs, with a lot of jQuery</h6>
+                    </a>
+                    <h6>A site about rapper gifs, with a lot of jQuery</h6>
                   </div>
                 </div>
               </div>
-          </div>
+  </div>
           <br>
           <br>
-</div>
+</div>          
 <hr>
 <br>
 <br>
                   
 <div class="row">
-            <div class="medium-6 columns">
-              <h3>Contact Me</h3>
-              <p>I make website for you</p>
-              <ul class="menu">
-               <!--  <li><a href="https://github.com/yeropharaoh" target="me github"><i class="fi-social-github"></i></a></li> -->
-                <li><a href="https://www.linkedin.com/in/yeropharaoh/" target="me linkedin"><i class="fi-social-linkedin"></i></a></li>
-              </ul>
-            </div>
-            <div class="medium-6 columns">
-            <form action="mailto:yeroffx@gmail.com" method="GET">
-                <label>Name
-                  <input type="text" placeholder="Name">
-                </label>
-                <label>Email
-                  <input type="text" placeholder="Email">
-                </label>
-                <label>
-                  Message
-                  <textarea placeholder="holla at a designerd"></textarea>
-                </label>
-                <input type="submit" class="button expanded" value="Submit">
-            </form>
-            </div>
-          </div>
+    <div class="medium-6 columns">
+      <h3>Contact Me</h3>
+      <p>I make website for you</p>
+      <ul class="menu">
+       <!--  <li><a href="https://github.com/yeropharaoh" target="me github"><i class="fi-social-github"></i></a></li> -->
+        <li><a href="https://www.linkedin.com/in/yeropharaoh/" target="me linkedin"><i class="fi-social-linkedin"></i></a></li>
+      </ul>
+    </div>
+    <div class="medium-6 columns">
+    <form action="mailto:yeroffx@gmail.com" method="GET">
+        <label>Name
+          <input type="text" placeholder="Name">
+        </label>
+        <label>Email
+          <input type="text" placeholder="Email">
+        </label>
+        <label>
+          Message
+          <textarea placeholder="holla at a designerd"></textarea>
+        </label>
+        <input type="submit" class="button expanded" value="Submit">
+    </form>
+    </div>
+</div>
 
-       
-<!-- typed.js -->
-
-<!-- <script>
-  var typed = new Typed('.element', {
-    stringsElement: '#typed-strings'
-  });
-</script> -->
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/js/foundation.min.js"></script>
@@ -161,16 +151,6 @@
       $(document).foundation();
       $("[data-menu-underline-from-center] a").addClass("underline-from-center");
     </script>
-
-    
-<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript">
-
-$(document).ready(function(){
-	$("[data-menu-underline-from-center] a").addClass("underline-from-center");
-});
-
-</script> -->
 
 </body>
 </html>
